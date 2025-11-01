@@ -1,4 +1,5 @@
 Retail Sales Demand Forecasting
+
 A project on time series forecasting for retail sales using ARIMA and Prophet.
 
 Project Overview
@@ -6,6 +7,7 @@ Project Overview
 This project focuses on forecasting daily sales for an individual Rossmann store using time series analysis. The primary goal is to build and evaluate different forecasting models to predict future demand accurately, which is crucial for optimizing inventory and promotions.
 
 Methodology & Features
+
 Data Cleaning: The raw training and store data was merged, cleaned, and preprocessed. The analysis focuses on a single store (Store 1) for a univariate time series forecast, filtering for days the store was open.
 
 Exploratory Data Analysis (EDA): Visualized the sales data over time to identify trends, seasonality, and potential outliers.
@@ -21,6 +23,7 @@ Prophet with Regressor: An enhanced Prophet model that includes external informa
 Evaluation: Models were evaluated on a hold-out test set of 90 days using Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE) as the primary metrics.
 
 Key Results
+
 The enhanced Prophet model, which included promotional data as an external regressor, was the top-performing model.
 
 MAPE Improvement: Adding the 'Promo' feature reduced the MAPE from 15.33% to 9.66%, a significant improvement in forecast accuracy.
@@ -47,6 +50,7 @@ Prophet (by Facebook)
 Jupyter Notebook
 
 How to Run This Project
+
 Prerequisites: Ensure you have Python and the following libraries installed:
 
 pip install pandas matplotlib seaborn statsmodels prophet jupyter
