@@ -2,6 +2,7 @@ Retail Sales Demand Forecasting
 A project on time series forecasting for retail sales using ARIMA and Prophet.
 
 Project Overview
+
 This project focuses on forecasting daily sales for an individual Rossmann store using time series analysis. The primary goal is to build and evaluate different forecasting models to predict future demand accurately, which is crucial for optimizing inventory and promotions.
 
 Methodology & Features
